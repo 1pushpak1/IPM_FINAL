@@ -7,11 +7,11 @@ export const links = [
       {
        
         sublink: [
-          { name: "MentorShip Course", link: "/" },
-          { name: "ClassRoom Course", link: "/" },
-          { name: "Online Course", link: "/" },
-          { name: "ShortTerm Course", link: "/" },
-          { name: "Test Series", link: "/" },
+          { name: "MentorShip Course", link: "/mentorship" },
+          { name: "ClassRoom Course", link: "/classroom" },
+          { name: "Online Course", link: "/online" },
+          { name: "ShortTerm Course", link: "/short-term" },
+          { name: "Test Series", link: "/testseries" },
         ],
       },
      
@@ -23,7 +23,7 @@ export const links = [
     sublinks: [
       {
         sublink: [
-          { name: "IIM Indore,IPM", link: "/" },
+          { name: "IIM Indore,IPM", link: "/iimindoreform" },
           { name:  "IIM Rohtak,IPM", link: "/" },
           { name:  "IIM Bodhgaya,IPM", link: "/" },
           { name: "IIM Ranchi,IPM", link: "/" },

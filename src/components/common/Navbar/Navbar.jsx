@@ -9,13 +9,14 @@ const Navbar = () => {
     <>
 
     <nav className="bg-opacity-70 backdrop-blur-lg fixed w-full h-13 shadow-lg z-50">
-      <div className="flex items-center font-medium justify-around">
+      <div className="flex items-center font-medium justify-between">
         <div className="z-50  md:w-auto w-full flex justify-between">
           <img src="https://i.imgur.com/yqawPSs.png" alt="logo" className="md:cursor-pointer h-10" />
           <div className="text-lg md:hidden" onClick={() => setOpen(!open)}>
             <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>
           </div>
         </div>
+        <div style={{display:'flex', flexDirection:'row' }}>
         <ul className="md:flex hidden uppercase items-center gap-2 font-[Poppins]">
           <li>
             <Link to="/" className="py-1 px-3 inline-block text-lg">
@@ -34,16 +35,19 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
-
-        <div className="md:block hidden">
-          <Button />
-        </div>
+        <div style={{ display: 'flex', flexDirection: 'column' }}>
+       
         <div className='social'>
             <i className='fab fa-facebook-f icon'></i>
             <i className='fab fa-instagram icon'></i>
             <i className='fab fa-twitter icon'></i>
             <i className='fab fa-youtube icon'></i>
           </div>
+          <div className="md:block hidden">
+          <Button />
+        </div>
+          </div>
+          </div>  
         {/* Mobile nav */}
         <ul
           className={`

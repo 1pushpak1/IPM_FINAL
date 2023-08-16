@@ -11,12 +11,18 @@ import Footer from "./components/common/footer/Footer"
 import Home from "./components/home/Home"
 import Navbar from "./components/common/Navbar/Navbar"
 import MentorshipCourses from "./components/new/MentorshipCourses"
+import IimIndroreForm from "./components/new/IimIndroreForm"
+
 
 function App() {
   return (
-    <>
-      <Router>
-        <Navbar/>
+    <>  
+    <Router>
+      <div> <Navbar/></div>
+   
+  
+      <div>
+       
         <Switch>
           <Route exact path='/' component={Home} />
           <Route exact path='/about' component={About} />
@@ -26,9 +32,16 @@ function App() {
           <Route exact path='/journal' component={Blog} />
           <Route exact path='/contact' component={Contact} />
           <Route exact path='/mentorship' component={MentorshipCourses} />
+          <Route exact path='/classroom' component={MentorshipCourses} />
+          <Route exact path='/online' component={MentorshipCourses} />
+          <Route exact path='/short-term' component={MentorshipCourses} />
+          <Route exact path='/testseries' component={MentorshipCourses} />
+          <Route exact path='/iimindoreform' component={IimIndroreForm} />
         </Switch>
+        </div>
         <Footer />
-      </Router>
+      
+        </Router>
     </>
   )
 }
