@@ -4,12 +4,12 @@ import carosoul from "../asset/platinum-web.png";
 const Platinum = () => {
   return (
     <>
-      <div className="mt-5">
+      <div className="">
         {/* <div className="d-flex justify-center pt-3 pb-3 border bottom-7 shadow-sm p-1 mb-2 bg-body-tertiary rounded">
           <img src={logo} height={"360px"} width={"360px"} alt="" />
         </div> */}
         {/* <div><img src={carosoul} alt="" /></div> */}
-        <div className="row">
+        <div className="row mt-5">
           <div className="col-sm-8">
             <div className="mt-5" style={{ marginLeft: 40 }}>
              
