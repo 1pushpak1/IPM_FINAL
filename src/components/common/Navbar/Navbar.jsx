@@ -30,7 +30,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/" className="py-1 px-3 inline-block text-lg">
+            <Link to="/Contact.jsx" className="py-1 px-3 inline-block text-lg">
               Contact Us
             </Link>
           </li>
@@ -41,8 +41,7 @@ const Navbar = () => {
             <i className='fab fa-facebook-f icon'></i>
             <i className='fab fa-instagram icon'></i>
             <i className='fab fa-twitter icon'></i>
-            <i className='fab fa-youtube icon'></i>
-          </div>
+              </div>
           <div className="md:block hidden">
           <Button />
         </div>
