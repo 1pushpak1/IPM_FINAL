@@ -11,7 +11,12 @@ import Footer from "./components/common/footer/Footer"
 import Home from "./components/home/Home"
 import Navbar from "./components/common/Navbar/Navbar"
 import MentorshipCourses from "./components/new/MentorshipCourses"
+import classroom from "./components/new/classroom"
+import shortterm from "./components/new/shortterm"
+import testseries from "./components/new/testseries"
+import online from "./components/new/online"
 import IimIndroreForm from "./components/new/IimIndroreForm"
+import { online } from "./dummydata"
 
 
 function App() {
@@ -32,10 +37,10 @@ function App() {
           <Route exact path='/journal' component={Blog} />
           <Route exact path='/contact' component={Contact} />
           <Route exact path='/mentorship' component={MentorshipCourses} />
-          <Route exact path='/classroom' component={MentorshipCourses} />
-          <Route exact path='/online' component={MentorshipCourses} />
-          <Route exact path='/short-term' component={MentorshipCourses} />
-          <Route exact path='/testseries' component={MentorshipCourses} />
+          <Route exact path='/classroom' component={classroom} />
+          <Route exact path='/online' component={online} />
+          <Route exact path='/short-term' component={shortterm} />
+          <Route exact path='/testseries' component={testseries} />
           <Route exact path='/iimindoreform' component={IimIndroreForm} />
         </Switch>
         </nav>
