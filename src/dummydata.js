@@ -309,24 +309,24 @@ export const price = [
 ]
 export const faq = [
   {
-    title: "How to Enroll This Online Courses?",
-    desc: "This is the first item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "What is the age limit for IIM Ranchi IPM Program",
+    desc: "There is no age limit for candidates. Even candidates completed their diploma and degree may apply.",
   },
   {
-    title: "Where It is hidden by default, until the collapse?",
-    desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "What is the marking scheme of the IPMAT exam?",
+    desc: "For every correct response +4 marks are awarded. For incorrect response 1 mark is deducted. However there is no negative marking for SA questions.",
   },
   {
-    title: "How It is hidden by default, until the collapse?",
-    desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "Who is an international candidate?",
+    desc: "An applicant is considered as an International Applicant if he/she meets the following criteria: Persons who are permanent citizens of a country other than India and residing outside India  Non Resident Indians (NRIs) who are not in India during Aptitude Test",
   },
   {
-    title: "How to Enroll This Online Courses?",
-    desc: "This is the first item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "How many IIM's Offer IPM Program?",
+    desc: "With the official announcement by IIM Jammu now we have total of 5 IIM's offering IPM program. 12th class student should now take IPM as their first career option. IIM INDORE, IIM ROHTAK, IIM RANCHI', IIM BODHGAYA, IIM JAMMU, IPMAT SAT IPMAT2021",
   },
   {
-    title: "Where It is hidden by default, until the collapse?",
-    desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "How many student appear for IIM Indore IPMAT exam 2020?",
+    desc: "The IPMAT exam is a very competitive exam. Over 17550 students appeared for the IIM Indore IPM Entrance Exam.",
   },
   {
     title: "How It is hidden by default, until the collapse?",
