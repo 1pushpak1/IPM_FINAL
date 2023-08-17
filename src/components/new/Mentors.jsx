@@ -6,12 +6,12 @@ const Mentors = () => {
   return (
     <>
       <div className="my-3">
-        <div className="d-flex justify-content-center">
+        <div className="d-flex justify-content-center" style={{display:'flex', flexDirection:'row', justifyContent:'center'}}>
           <h3 style={{ fontSize: "39px" , color:'black' }} className="mx-5 m-0 fw-bold ">
             Know
           </h3>  
         </div>
-        <div className="d-flex justify-content-center">
+        <div className="d-flex justify-content-center" style={{display:'flex', flexDirection:'row', justifyContent:'center'}}>
           <h3
             style={{ fontSize: "55px", color: "#f2ad00" }}
             className="mx-5 m-0 fw-bold"

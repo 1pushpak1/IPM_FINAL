@@ -17,8 +17,8 @@ const Icons = () => {
   ];
   return (
     <>
-     <div className="container d-flex justify-center mb-8">
-          <div className="d-flex justify-content-center gap-8" style={{width : "50%"}}>
+     <div className="container d-flex justify-center mb-8" style={{ justifyContent:"center", display:"flex", paddingTop:"48px"}}>
+          <div className="d-flex justify-content-center gap-8" style={{width : "50%", display:"flex", flexDirection:"row"}}>
                   <div>
                   <div
                 className="card bg-warning text-center  p-3 "
@@ -89,8 +89,8 @@ const Icons = () => {
                   </div>
           </div>
      </div>
-     <div className="container d-flex justify-center mb-8">
-          <div className="d-flex justify-content-center gap-8" style={{width : "50%"}}>
+     <div className="container d-flex justify-center mb-8" style={{ justifyContent:"center", display:"flex"}}>
+          <div className="d-flex justify-content-center gap-8" style={{width : "50%", display:"flex", flexDirection:"row", justifyContent:'center'}}>
                   <div>
                   <div
                 className="card bg-warning text-center  p-3 "

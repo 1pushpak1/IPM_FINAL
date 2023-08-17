@@ -2,7 +2,7 @@ import React from "react";
 
 const BookingForm = () => {
   return (
-    <div className="my-5">
+  
     <div
       style={{
         backgroundColor: "rgb(131,53,137)",
@@ -11,12 +11,11 @@ const BookingForm = () => {
         fontFamily:'Roboto'
       }}
     >
-      <div className="container">
-        <div className="row">
-          <div className="col-sm-6">
+      <div className="container" style={{ display:'flex', flexDirection:"row"}}>
+          <div className="col-sm-6" style={{width:"50%"}}>
             <div
               className="text-white mt-5"
-              style={{ fontSize: "30px", fontWeight: "bold" , textAlign:'left' }}
+              style={{ fontSize: "30px", fontWeight: "bold" , textAlign:'left', paddingTop:'40px' }}
             >
               <span>Book a FREE Session for </span>
               <br />
@@ -26,21 +25,23 @@ const BookingForm = () => {
             </div>
             <button
               type="button"
+              style={{padding: "0.375rem 0.75rem", color: "#212529"}}
               class="btn bg-warning w-10/12 rounded-full mt-3 font-medium"
             >
               One-On-Live Clasess
             </button>
             <button
               type="button"
+              style={{padding: "0.375rem 0.75rem", color: "#212529"}}
               class="btn bg-warning w-10/12 rounded-full mt-3 font-medium"
             >
               Ten One-On-One Session with RV Sir
             </button>
           </div>
-          <div className="col-sm-6">
+          <div className="col-sm-6" style={{width:"50%", }}>
             <div class="container mt-5">
               <div class="card rounded-lg  my-5">
-                <div class="card-body ">
+                <div class="card-body " style={{backgroundColor:'#fff', borderRadius:"8px", padding:"16px"}}>
                   <div style={{
                         color: "rgb(131,53,137)",
                         fontSize: "24px",
@@ -120,8 +121,6 @@ const BookingForm = () => {
             </div>
           </div>
         </div>
-      </div>
-    </div>
     </div>);
 };
 

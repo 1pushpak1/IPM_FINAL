@@ -10,6 +10,7 @@ const Testimonials = () => {
             color: "rgb(131,53,137)",
             fontSize: "80px",
             fontWeight: "bold",
+            textAlign: "center"
           }}
         >
           Testimonial
@@ -22,7 +23,7 @@ const Testimonials = () => {
             >
               <div
                 class="card-body border-0"
-                style={{ border: "2px solid pink" }}
+                style={{  padding:"16px" }}
               >
                 <div className="flex gap-4 shadow-sm p-3 mb-3 bg-body-tertiary rounded-lg bgimg">
                   <div>
