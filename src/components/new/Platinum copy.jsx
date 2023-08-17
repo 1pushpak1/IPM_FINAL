@@ -16,16 +16,16 @@ const Platinum = () => {
             </div>
 
             <div style={{ marginTop: 50, marginLeft: 50, fontSize: 60 }}>
-             PERSONALISED MENTORSHIP <span className="text-warning">PROGRAM</span>
+             The Expert in ANYTHING <span className="text-warning">Was Once a BEGINNER</span>
             </div>
             <div style={{ marginLeft: 50 }}>
               <div className="col-sm-5">
                 <hr />
               </div>
               <div className="py-2" style={{ fontSize: 25 }}>
-                One-on-One{" "}
+                Prepare for{" "}
                 <span style={{ fontStyle: "normal" }} className="text-warning">
-                  Live Classes
+                  IPMAT 2024
                 </span>
                 <div className="col-sm-5 my-2">
                   <hr />
@@ -33,15 +33,15 @@ const Platinum = () => {
                 <div style={{ fontSize: 18, fontWeight: "bold" }}>
                   <div>
                     <input type="checkbox" checked />{" "}
-                    <span> 10 One-on-One Session with R.V Sir </span>
+                    <span> IPM Prime is your mate in this journey </span>
                   </div>
                   <div>
                     <input type="checkbox" checked />{" "}
-                    <span>Flexible Timings </span>
+                    <span>Prepare for IPMAT 2024-25 with your trusted mentorship Program </span>
                   </div>
                   <div>
                     <input type="checkbox" checked />{" "}
-                    <span>Individual Attention </span>
+                    <span>IPM Prime Presonalised Mentorship Program </span>
                   </div>
                   <div>
                     <input type="checkbox" checked />{" "}
