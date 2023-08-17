@@ -18,11 +18,11 @@ function App() {
   return (
     <>  
     <Router>
-      <div> <Navbar/></div>
+      <div > <Navbar/></div>
    
   
       <div>
-       
+       <nav>
         <Switch>
           <Route exact path='/' component={Home} />
           <Route exact path='/about' component={About} />
@@ -38,7 +38,9 @@ function App() {
           <Route exact path='/testseries' component={MentorshipCourses} />
           <Route exact path='/iimindoreform' component={IimIndroreForm} />
         </Switch>
+        </nav>
         </div>
+        
         <Footer />
       
         </Router>

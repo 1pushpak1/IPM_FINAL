@@ -2,7 +2,7 @@ import React from "react";
 import "./IimForm.css";
 const IimIndroreForm = () => {
   return (
-    <div className="container">
+    <div className="container" style={{paddingTop:"70px"}}>
       <div className="mt-5">
         <div className="row">
           <div className="col-sm-8">
