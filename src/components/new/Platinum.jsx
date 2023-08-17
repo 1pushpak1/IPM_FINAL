@@ -16,7 +16,7 @@ const Platinum = () => {
             </div>
 
             <div style={{ marginTop: 50, marginLeft: 50, fontSize: 60 }}>
-              PERSONALISED MENTORSHIP <span className="text-warning">PROGRAM</span>
+             PERSONALISED MENTORSHIP <span className="text-warning">PROGRAM</span>
             </div>
             <div style={{ marginLeft: 50 }}>
               <div className="col-sm-5">
