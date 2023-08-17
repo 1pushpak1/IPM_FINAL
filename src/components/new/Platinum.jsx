@@ -4,7 +4,7 @@ import carosoul from "../asset/platinum-web.png";
 const Platinum = () => {
   return (
     <>
-      <div className="">
+      <div style={{marginTop: '80px' }}>
         {/* <div className="d-flex justify-center pt-3 pb-3 border bottom-7 shadow-sm p-1 mb-2 bg-body-tertiary rounded">
           <img src={logo} height={"360px"} width={"360px"} alt="" />
         </div> */}
