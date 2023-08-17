@@ -45,7 +45,7 @@ export const coursesCard = [
   {
     id: 1,
     cover: "../images/courses/c1.png",
-    coursesName: "Introducing to Software Engineering",
+    coursesName: "Prime Mentorship Program",
     courTeacher: [
       {
         dcover: "./images/back.webp",
@@ -53,31 +53,31 @@ export const coursesCard = [
         totalTime: "50 lectures (190 hrs)",
       },
     ],
-    priceAll: "$100 All Course",
-    pricePer: "$15 per month",
+    priceAll: "25000Rs All Course",
+    pricePer: ".. per month",
   },
   {
     id: 2,
     cover: "../images/courses/c2.png",
-    coursesName: "Enhancing Adobe Photoshop CC 2020 Skills",
+    coursesName: "Achivers Mentorship Program",
     courTeacher: [
       {
         dcover: "./images/back.webp",
-        name: "by Ram Gurung",
+        name: "RV Sir",
         totalTime: "30 lectures (125 hrs)",
       },
     ],
-    priceAll: "$200 All Course",
+    priceAll: ".. All Course",
     pricePer: "$25 per month",
   },
   {
     id: 3,
     cover: "../images/courses/c3.png",
-    coursesName: "HTML, CSS, and Javascript for Web Developers",
+    coursesName: "Short Mentorship",
     courTeacher: [
       {
         dcover: "./images/back.webp",
-        name: "by Saroj Nepal",
+        name: "by RV Sir",
         totalTime: "50 lectures (50 hrs)",
       },
     ],

@@ -9,7 +9,7 @@ export const links = [
         sublink: [
           { name: "Premium MentorShip Program", link: "/mentorship" },
           { name: "Achievers' Mentorship Program", link: "/classroom" },
-          { name: "Masters' Mentorship Program", link: "/online" },
+          { name: "Masters' Mentorship Program", link: "/online-test" },
           { name: "Short Mentorship Program", link: "/short-term" },
           { name: "Test Series Mentorship", link: "/testseries" },
         ],
