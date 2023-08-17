@@ -14,7 +14,7 @@ import MentorshipCourses from "./components/new/MentorshipCourses"
 import classroom from "./components/new/classroom"
 import shortterm from "./components/new/shortterm"
 import testseries from "./components/new/testseries"
-import online-test from "./components/new/online-test"
+
 import IimIndroreForm from "./components/new/IimIndroreForm"
 import { online } from "./dummydata"
 
@@ -38,7 +38,7 @@ function App() {
           <Route exact path='/contact' component={Contact} />
           <Route exact path='/mentorship' component={MentorshipCourses} />
           <Route exact path='/classroom' component={classroom} />
-          <Route exact path='/online-test' component={online-test} />
+          <Route exact path='/online' component={classroom} />
           <Route exact path='/short-term' component={shortterm} />
           <Route exact path='/testseries' component={testseries} />
           <Route exact path='/iimindoreform' component={IimIndroreForm} />
