@@ -16,6 +16,10 @@ import shortterm from "./components/new/shortterm"
 import testseries from "./components/new/testseries"
 
 import IimIndroreForm from "./components/new/IimIndroreForm"
+import IimIndroreForm1 from "./components/new/IimIndroreForm copy"
+import IimIndroreForm2 from "./components/new/IimIndroreForm copy 2"
+import IimIndroreForm3 from "./components/new/IimIndroreForm copy 3"
+import IimIndroreForm4 from "./components/new/IimIndroreForm copy 4"
 import { online } from "./dummydata"
 
 
@@ -38,10 +42,14 @@ function App() {
           <Route exact path='/contact' component={Contact} />
           <Route exact path='/mentorship' component={MentorshipCourses} />
           <Route exact path='/classroom' component={classroom} />
-          <Route exact path='/online' component={classroom} />
+         
           <Route exact path='/short-term' component={shortterm} />
           <Route exact path='/testseries' component={testseries} />
-          <Route exact path='/iimindoreform' component={IimIndroreForm} />
+          <Route exact path='/iimindoreform' component={IimIndroreForm } /> 
+          <Route exact path='/iimindoreform1' component={IimIndroreForm1} /> 
+          <Route exact path='/iimindoreform2' component={IimIndroreForm2} /> 
+          <Route exact path='/iimindoreform3' component={IimIndroreForm3} /> 
+          <Route exact path='/iimindoreform4' component={IimIndroreForm4} /> 
         </Switch>
         </nav>
         </div>

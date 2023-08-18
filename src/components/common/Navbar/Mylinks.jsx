@@ -24,10 +24,10 @@ export const links = [
       {
         sublink: [
           { name: "IIM Indore,IPM", link: "/iimindoreform" },
-          { name:  "IIM Rohtak,IPM", link: "/" },
-          { name:  "IIM Bodhgaya,IPM", link: "/" },
-          { name: "IIM Ranchi,IPM", link: "/" },
-          { name:  "IIM Jaipur,IPM", link: "/" },
+          { name:  "IIM Rohtak,IPM", link: "/iimindoreform1" },
+          { name:  "IIM Bodhgaya,IPM", link: "/iimindoreform2" },
+          { name: "IIM Ranchi,IPM", link: "/iimindoreform3" },
+          { name:  "IIM Jaipur,IPM", link: "/iimindoreform4" },
         ],
       },
     
