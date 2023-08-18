@@ -18,7 +18,7 @@ export const links = [
     ],
   },
   {
-    name: "Courses",
+    name: "Exams",
     submenu: true,
     sublinks: [
       {
