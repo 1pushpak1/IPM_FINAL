@@ -10,7 +10,7 @@ const IimIndroreForm = () => {
               <div>
                 <div className="mt-5">
                   <h2 className="fw-bold" style={{ color: "#103F6B" }}>
-                    IIM Indore
+                    IIM Rohtak
                   </h2>
                   <div
                     className="mt-3"
@@ -51,15 +51,15 @@ const IimIndroreForm = () => {
                     <div style={{ fontSize: "15px" }}>
                       <li>
                         Online Application starts from :
-                        <span className="fw-bold">09.03.2023</span>
+                        <span className="fw-bold">06.02.2023</span>
                       </li>
                       <li>
                         Last date for submitting online application:{" "}
-                        <span className="fw-bold">14.04.2023</span>
+                        <span className="fw-bold">10.04.2023</span>
                       </li>
                       <li>
                         {" "}
-                        Exam Date : <span className="fw-bold">16.06.2023</span>
+                        Exam Date : <span className="fw-bold">20.05.2023</span>
                       </li>
                     </div>
                     <div>
@@ -90,26 +90,26 @@ const IimIndroreForm = () => {
                   <tr>
                     <th scope="row">1</th>
                     <td>Quantitative Ability- MCQ</td>
-                    <td>Verbal Ability</td>
-                    <td>@mdo</td>
+                    <td>40</td>
+                    <td>160</td>
                   </tr>
                   <tr>
                     <th scope="row">2</th>
                     <td> Quantitative Ability- SA (No Negative Marking)</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
+                    <td>40</td>
+                    <td>160</td>
                   </tr>
                   <tr>
                     <th scope="row">3</th>
                     <td>Larry the Bird</td>
-                    <td>@twitter</td>
-                    <td>@twitter</td>
+                    <td>40</td>
+                    <td>160</td>
                   </tr>
                   <tr>
                     <th scope="row">4</th>
                     <td>Total</td>
-                    <td>400</td>
-                    <td>500</td>
+                    <td>120</td>
+                    <td>480</td>
                   </tr>
                 </tbody>
               </table>
@@ -140,7 +140,7 @@ const IimIndroreForm = () => {
                 style={{ fontSize: "15px" }}
                 href="https://www.iimidr.ac.in/academic-programmes/five-year-integrated-programme-in-management-ipm/"
               >
-                https://www.iimidr.ac.in/academic-programmes/five-year-integrated-programme-in-management-ipm/
+                https://www.iimrohtak.ac.in/index.php/en/programmes/ipm
               </a>
 
               <div className="my-5">
@@ -155,14 +155,12 @@ const IimIndroreForm = () => {
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseExample1"
                   >
-                    <p>What Is The Duration Of The IPM Course At IIM Indore?</p>
+                    <p>What Is The Duration Of The IPM Course At IIM Rohtak?</p>
                     <p>^</p>
                   </p>
                   <div class="collapse" id="collapseExample1">
                     <div class="card card-body border-0">
-                      Some placeholder content for the collapse component. This
-                      panel is hidden by default but revealed when the user
-                      activates the relevant trigger.
+                    The IPM program at IIM Rohtak is a five-year integrated program
                     </div>
                   </div>
                 </div>
@@ -177,14 +175,12 @@ const IimIndroreForm = () => {
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseExample2"
                   >
-                    <p>What Is The Duration Of The IPM Course At IIM Indore?</p>
+                    <p>What Is The Selection Process For The IPM Course At IIM Rohtak?</p>
                     <p>^</p>
                   </p>
                   <div class="collapse" id="collapseExample2">
                     <div class="card card-body border-0">
-                      Some placeholder content for the collapse component. This
-                      panel is hidden by default but revealed when the user
-                      activates the relevant trigger.
+                    The selection process typically consists of a written aptitude test, followed by a personal interview.
                     </div>
                   </div>
                 </div>
@@ -199,14 +195,12 @@ const IimIndroreForm = () => {
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseExample3"
                   >
-                    <p>What Is The Duration Of The IPM Course At IIM Indore?</p>
+                    <p>Can I Apply For The IPM Course At IIM Rohtak Directly After Completing My 12th Grade?</p>
                     <p>^</p>
                   </p>
                   <div class="collapse" id="collapseExample3">
                     <div class="card card-body border-0">
-                      Some placeholder content for the collapse component. This
-                      panel is hidden by default but revealed when the user
-                      activates the relevant trigger.
+                    Yes, the IPM program is specifically designed for students who have completed their 12th grade or equivalent.
                     </div>
                   </div>
                 </div>
@@ -221,14 +215,12 @@ const IimIndroreForm = () => {
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseExample4"
                   >
-                    <p>What Is The Duration Of The IPM Course At IIM Indore?</p>
+                    <p>Are There Any Reservations Or Quotas For Specific Categories In The IPM Program?</p>
                     <p>^</p>
                   </p>
                   <div class="collapse" id="collapseExample4">
                     <div class="card card-body border-0">
-                      Some placeholder content for the collapse component. This
-                      panel is hidden by default but revealed when the user
-                      activates the relevant trigger.
+                    Yes, IIM Rohtak follows the government-mandated reservation policies for different categories such as SC, ST, OBC, EWS, and PwD.
                     </div>
                   </div>
                 </div>
@@ -243,14 +235,12 @@ const IimIndroreForm = () => {
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseExample5"
                   >
-                    <p>What Is The Duration Of The IPM Course At IIM Indore?</p>
+                    <p>Are Internships A Part Of The IPM Program At IIM Rohtak?</p>
                     <p>^</p>
                   </p>
                   <div class="collapse" id="collapseExample5">
                     <div class="card card-body border-0">
-                      Some placeholder content for the collapse component. This
-                      panel is hidden by default but revealed when the user
-                      activates the relevant trigger.
+                    Yes, IIM Rohtak provides opportunities for internships as a part of the IPM program, which allows students to gain practical exposure and industry experience.
                     </div>
                   </div>
                 </div>
@@ -265,14 +255,12 @@ const IimIndroreForm = () => {
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseExample6"
                   >
-                    <p>What Is The Duration Of The IPM Course At IIM Indore?</p>
+                    <p>Does IIM Rohtak Offer Any Exchange Programs Or International Exposure For IPM Students?</p>
                     <p>^</p>
                   </p>
                   <div class="collapse" id="collapseExample6">
                     <div class="card card-body border-0">
-                      Some placeholder content for the collapse component. This
-                      panel is hidden by default but revealed when the user
-                      activates the relevant trigger.
+                    Yes, IIM Rohtak has tie-ups with reputed international universities and institutions, providing opportunities for exchange programs and international exposure to IPM students.
                     </div>
                   </div>
                 </div>
@@ -287,14 +275,12 @@ const IimIndroreForm = () => {
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseExample7"
                   >
-                    <p>What Is The Duration Of The IPM Course At IIM Indore?</p>
+                    <p>What Are The Career Prospects After Completing The IPM Program At IIM Rohtak?</p>
                     <p>^</p>
                   </p>
                   <div class="collapse" id="collapseExample7">
                     <div class="card card-body border-0">
-                      Some placeholder content for the collapse component. This
-                      panel is hidden by default but revealed when the user
-                      activates the relevant trigger.
+                    Graduates of the IPM program have a wide range of career opportunities available to them. They can pursue careers in various domains such as finance, marketing, consulting, human resources, operations, and entrepreneurship. Many graduates also opt for higher studies or pursue careers in research.
                     </div>
                   </div>
                 </div>
@@ -309,14 +295,12 @@ const IimIndroreForm = () => {
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseExample8"
                   >
-                    <p>What Is The Duration Of The IPM Course At IIM Indore?</p>
+                    <p>Does IIM Rohtak Provide Placement Assistance To IPM Students?</p>
                     <p>^</p>
                   </p>
                   <div class="collapse" id="collapseExample8">
                     <div class="card card-body border-0">
-                      Some placeholder content for the collapse component. This
-                      panel is hidden by default but revealed when the user
-                      activates the relevant trigger.
+                    Yes, IIM Rohtak has a dedicated placement cell that assists IPM students in securing internships and final placements. The institute has a strong network of corporate connections, which helps in facilitating placement opportunities.
                     </div>
                   </div>
                 </div>
@@ -331,14 +315,12 @@ const IimIndroreForm = () => {
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseExample9"
                   >
-                    <p>What Is The Duration Of The IPM Course At IIM Indore?</p>
+                    <p>Are There Any Scholarships Available For IPM Students At IIM Rohtak?</p>
                     <p>^</p>
                   </p>
                   <div class="collapse" id="collapseExample9">
                     <div class="card card-body border-0">
-                      Some placeholder content for the collapse component. This
-                      panel is hidden by default but revealed when the user
-                      activates the relevant trigger.
+                    IIM Rohtak provides scholarships and financial assistance to deserving IPM students based on merit or certain criteria specified by the institute.
                     </div>
                   </div>
                 </div>
@@ -353,20 +335,19 @@ const IimIndroreForm = () => {
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseExample10"
                   >
-                    <p>What Is The Duration Of The IPM Course At IIM Indore?</p>
+                    <p>What Is The Curriculum Structure Of The IPM Program At IIM Rohtak?</p>
                     <p>^</p>
                   </p>
                   <div class="collapse" id="collapseExample10">
                     <div class="card card-body border-0">
-                      Some placeholder content for the collapse component. This
-                      panel is hidden by default but revealed when the user
-                      activates the relevant trigger.
+                    The IPM program at IIM Rohtak follows a comprehensive curriculum that combines foundational courses in management with general education courses. The curriculum is designed to provide a holistic understanding of management concepts and develop students' analytical, problem-solving, and leadership skills.
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+
 
           <div className="col-sm-4">
             <CounsellingForm />

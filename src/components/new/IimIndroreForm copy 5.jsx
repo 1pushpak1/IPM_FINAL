@@ -10,7 +10,7 @@ const IimIndroreForm = () => {
               <div>
                 <div className="mt-5">
                   <h2 className="fw-bold" style={{ color: "#103F6B" }}>
-                    IIM Indore
+                    IIM JAMMU
                   </h2>
                   <div
                     className="mt-3"
