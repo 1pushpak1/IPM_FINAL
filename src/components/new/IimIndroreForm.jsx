@@ -4,7 +4,7 @@ const IimIndroreForm = () => {
   return (
     <div className="container" style={{paddingTop:"70px"}}>
       <div className="mt-5">
-        <div className="row">
+        <div style={{ display:'flex', flexDirection:'row' }}>
           <div className="col-sm-8">
             <div className="scrollable-text">
               <div>
@@ -351,7 +351,7 @@ const IimIndroreForm = () => {
             </div>
           </div>
 
-          <div className="col-sm-4">
+          <div className="col-sm-4" >
             <CounsellingForm />
           </div>
         </div>
